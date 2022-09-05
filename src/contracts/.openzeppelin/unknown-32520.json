@@ -1,0 +1,2687 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x5F4312548e0f50DA7124D7F0FD5e534aF39eA399",
+    "txHash": "0xe5866334581bcafb72905a524404d1187f16c74a8aae4d21aa106a38cc40b817"
+  },
+  "proxies": [
+    {
+      "address": "0x44818bceE7E5a0f119339aaF9C0369B4716DB0C4",
+      "txHash": "0x8728f46547843b3d5064908fa2a4ac88efc8fbe4f2b53ab3007e3f987437b75f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x07AF33D5EA3b5709070b10C30B8287CC6D5dd816",
+      "txHash": "0x275f285e43cdc38e12a154a59d05f8416d92bab71ea7e15f4f3abb57a81c2c26",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd51760E66900994950c017C4aB875Dc52E436F48",
+      "txHash": "0x594fb9777a56e69961cda5d141d2bab6d4009b1267e92be5443f6105b9342ba0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8076A7D7025ea6AAEdA58cC307C820321cb27747",
+      "txHash": "0x8c2c3bda615f5c8dd813d0056bcbbc9620a03ecd26997231bee657ec3f627a5b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x248e504C9322FBd6F26B2E90E39CaD31eBf30876",
+      "txHash": "0xc25b6ad74c063ce878450835d70963d5c95e3a4087cd531970b96ffe07d9a494",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6651b06D94bC87C60cA8175b6dA0052e50542D73",
+      "txHash": "0xb41431763b1daa492a6f6d66e566fa6ee2d66c1f93403fd31e05c93dc240e923",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6f4A63d6bBab99dB620F7dD5ea8Eb758fE75842b",
+      "txHash": "0x389ea1b8da098c5d930a4417fc0a5e9d1bc97da4ee096d4084348ecb38e1813b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x62518F2455e38F46e9C724C988D8806233Dc67D5",
+      "txHash": "0x3f1c804235d3b6f25060726afb84dfb65a5344d6d146cf78e3ca038b501ee3fa",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfE75250f9314A9a6bFEa57e78528252c28ef07D5",
+      "txHash": "0x5db0e447cb949efda9a985437237b0f96b90b42cb0df725c4ff73d5157e55aee",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x42E00237f4302285E13E468a3152a64b3DF7BD0d",
+      "txHash": "0x821617c0ccdae0bed8b5623a7c7ddbb9cd825f89f52b47b5b8443cccf48a10bc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9985A6aDC24e77798B2fEE733b19041a43d2f2aF",
+      "txHash": "0x6c24ef857909becac44d400923d96692b61bfa9f24d182d31424807cfb593c0c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x01ef84855a53de0a10ed9D24D20bcF4D2482aC21",
+      "txHash": "0x6f1ac1f7109ad394c97aa89e2e6f46a34954a7462a1f9c5b89f97b77326a21c6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7b6D8F5212bb002E457FB44f8cbF1206e99f43D4",
+      "txHash": "0x63d5669b4f520a6700482e8e37101593ff123179d3a024340d3cd1b922698f32",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "2b7b87c67921ac9d6e12f5c83824ecb76cea9dcfbaa802aa2b22aba85cdcf907": {
+      "address": "0xB5893bCBe698587877ac2D297eeCDF23d337199F",
+      "txHash": "0x0e12a73b1a5a6fdeda780e9a3e0f911a281150e81e154d0f38d8d7860753fad3",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1397_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1397_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1397_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "80017025313ec5eb57b045b780d6698a768badc33328cab7c7a4085f16dbfa02": {
+      "address": "0x218639A5e64502E9C1963bA0c768db1BfcF713E2",
+      "txHash": "0xd458d224f3f4de7bcda3e1b2b38fc9ee1827ea4afb6d6660a4937a70eae16573",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "226920ce8e1c26c5bece496c6880229f440774b9d782eb82e399359b9f40a814": {
+      "address": "0x07bbB1915adc1bfF753c0525465BEcC9E355847B",
+      "txHash": "0x606a4f31481491feaf54f55e9b41cd883fc3e4b6bb20c67ea177742c63e043fd",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "fa6d385c0ff2193188797754a0b807408bd907425517702332c4f1bc2b6d24e9": {
+      "address": "0xaA0dfe97dbB7954E79C96FBE5f0DD508B4A950B3",
+      "txHash": "0x48d2abc85fbfbe3ba01335626d02f23139a3ab070fa216c58a5e4dfaa8261ed7",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "1baec6a973e4ca16d787b91c2600c195f3c035d7e6e950ca791750549921f7e9": {
+      "address": "0x770125A49CBccd53b29FDD9cC7C79F58c838639a",
+      "txHash": "0xfe39c1398ab2fa2650030055d45341e48c603bf613ec5745dfd21269c4a4d1fa",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "59eeed98d5fabd3846cd9c247c4858377a44394700bf46279942f4fef9205247": {
+      "address": "0x8aF621f1e9da5AA69B25335d51a40634B8b5B1C4",
+      "txHash": "0x39fe9eb966758165e93e824ee83811e11ab2a613bcffd42116a248e650c2a46f",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "373364fe2a1a236b3abfd00d167e1916b9f926aaff8ee111ca38fbae8ae32481": {
+      "address": "0xcb44bCa61AD77a6776F55005Ff0947cd496F75F3",
+      "txHash": "0xb67206096d71e455725ff8db3f0b2bc0ef5366c3ef019d9dd2d2b3cf4852416c",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "6d0461467be336964df86785d05ec9df21933de3b6e33b245054394998dea6b1": {
+      "address": "0xf3274a6Af94841DF14Fc442ef0c7D69bd9a8b283",
+      "txHash": "0x7813cafc582bca40bfa78f4fbb8ec5fedecd4ff416c7e3ffe53b1086c3b053fd",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "c40370930759c8ed3c0080f0122f5e35d754ca087edaeaaceef61a8d40a895b5": {
+      "address": "0x46A5062dA05695EFc5481F5dfa50aE80E9e12376",
+      "txHash": "0xf9afc5e5e03bcb4b184606184aeeb33236659c8f055ae5a62b4b5f7d26b0159b",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:394"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "_itemIds",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_struct(Counter)1270_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:12"
+          },
+          {
+            "label": "winners",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:13"
+          },
+          {
+            "label": "lastLotteryRoundWinners",
+            "offset": 0,
+            "slot": "153",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:14"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "154",
+            "type": "t_address_payable",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:15"
+          },
+          {
+            "label": "startKey",
+            "offset": 0,
+            "slot": "155",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:16"
+          },
+          {
+            "label": "noOfWinners",
+            "offset": 0,
+            "slot": "156",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:18"
+          },
+          {
+            "label": "burnAddress",
+            "offset": 0,
+            "slot": "157",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:19"
+          },
+          {
+            "label": "evoTokenAddress",
+            "offset": 0,
+            "slot": "158",
+            "type": "t_address",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:20"
+          },
+          {
+            "label": "total",
+            "offset": 0,
+            "slot": "159",
+            "type": "t_uint256",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:21"
+          },
+          {
+            "label": "playerData",
+            "offset": 0,
+            "slot": "160",
+            "type": "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)",
+            "contract": "POGPlay",
+            "src": "contracts\\POGPlay.sol:23"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(PlayersGravity)1399_storage)": {
+            "label": "mapping(uint256 => struct POGPlay.PlayersGravity)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Counter)1270_storage": {
+            "label": "struct Counters.Counter",
+            "members": [
+              {
+                "label": "_value",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(PlayersGravity)1399_storage": {
+            "label": "struct POGPlay.PlayersGravity",
+            "members": [
+              {
+                "label": "tokenNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "playerAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "startNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "endNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "end",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
